@@ -5,23 +5,23 @@ For example when you push view controller and want to load some data from server
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/Preview.gif" width="218"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/1.png" width="218"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/2.png" width="218"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/3.png" width="218"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/4.png" width="218"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/5.png" width="218"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/6.png" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGPlaceholderView/Preview.gif" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGPlaceholderView/1.png" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGPlaceholderView/2.png" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGPlaceholderView/3.png" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGPlaceholderView/4.png" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGPlaceholderView/5.png" width="218"/>
+<img src="https://raw.githubusercontent.com/LGLibs/ReadmeFiles/master/LGPlaceholderView/6.png" width="218"/>
 
 ## Installation
 
 ### With source code
 
-[Download repository](https://github.com/Friend-LGA/LGPlaceholderView/archive/master.zip), then add [LGPlaceholderView directory](https://github.com/Friend-LGA/LGPlaceholderView/blob/master/LGPlaceholderView/) to your project.
+[Download repository](https://github.com/LGLibs/LGPlaceholderView/archive/master.zip), then add [LGPlaceholderView directory](./LGPlaceholderView) to your project.
 
 ### With CocoaPods
 
-CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. To install with cocoaPods, follow the "Get Started" section on [CocoaPods](https://cocoapods.org/).
+CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries in your projects. To install with cocoaPods, follow the "Get Started" section on [CocoaPods](https://cocoapods.org).
 
 #### Podfile
 ```ruby
@@ -31,11 +31,11 @@ pod 'LGPlaceholderView', '~> 1.0.0'
 
 ### With Carthage
 
-Carthage is a lightweight dependency manager for Swift and Objective-C. It leverages CocoaTouch modules and is less invasive than CocoaPods. To install with carthage, follow the instruction on [Carthage](https://github.com/Carthage/Carthage/).
+Carthage is a lightweight dependency manager for Swift and Objective-C. It leverages CocoaTouch modules and is less invasive than CocoaPods. To install with carthage, follow the instruction on [Carthage](https://github.com/Carthage/Carthage).
 
 #### Cartfile
 ```
-github "Friend-LGA/LGPlaceholderView" ~> 1.0.0
+github "LGLibs/LGPlaceholderView" ~> 1.0.0
 ```
 
 ## Usage
@@ -54,7 +54,7 @@ You have several methods for initialization:
 - (instancetype)initWithView:(UIView *)view; // parent view, that content you need to hide
 ```
 
-More init methods you can find in [LGPlaceholderView.h](https://github.com/Friend-LGA/LGPlaceholderView/blob/master/LGPlaceholderView/LGPlaceholderView.h)
+More init methods you can find in [LGPlaceholderView.h](./LGPlaceholderView/LGPlaceholderView.h)
 
 #### Notifications
 
@@ -69,8 +69,16 @@ kLGPlaceholderViewDidDismissNotification;
 
 ### More
 
-For more details try Xcode [Demo project](https://github.com/Friend-LGA/LGPlaceholderView/blob/master/Demo) and see [LGPlaceholderView.h](https://github.com/Friend-LGA/LGPlaceholderView/blob/master/LGPlaceholderView/LGPlaceholderView.h)
+For more details try [Xcode Demo Project](./Demo) and see [LGPlaceholderView.h](./LGPlaceholderView/LGPlaceholderView.h)
+
+## Repos / Mirrors
+
+- [TRULAB](https://trulab.ru/LGLibs/LGPlaceholderView)
+- [GitHub](https://github.com/LGLibs/LGPlaceholderView)
+- [GitLab](https://gitlab.com/LGLibs/LGPlaceholderView)
+- [Gitea](https://gitea.com/LGLibs/LGPlaceholderView)
 
 ## License
 
-LGPlaceholderView is released under the MIT license. See [LICENSE](https://raw.githubusercontent.com/Friend-LGA/LGPlaceholderView/master/LICENSE) for details.
+Copyright (c) 2015 Grigorii Lutkov \<grigorii@lutkov.dev\></br>
+Licensed under the [MIT License](./LICENSE)

@@ -1,9 +1,9 @@
 //
-//  PlaceholderWebViewController.m
-//  LGPlaceholderViewDemo
+// PlaceholderWebViewController.m
+// LGPlaceholderViewDemo
 //
-//  Created by Grigory Lutkov on 25.02.15.
-//  Copyright (c) 2015 Grigory Lutkov. All rights reserved.
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2015 Grigorii Lutkov <grigorii@lutkov.dev>
 //
 
 #import "PlaceholderWebViewController.h"
@@ -24,11 +24,11 @@
     if (self)
     {
         self.title = title;
-        
+
         // -----
-        
+
         NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"http://google.com"]];
-        
+
         _webView = [UIWebView new];
         _webView.delegate = self;
         _webView.backgroundColor = [UIColor whiteColor];
@@ -36,7 +36,7 @@
         _webView.scrollView.clipsToBounds = NO;
         [_webView loadRequest:request];
         [self.view addSubview:_webView];
-        
+
         _placeholderView = [[LGPlaceholderView alloc] initWithView:_webView.scrollView];
         [_placeholderView showActivityIndicatorAnimated:NO completionHandler:nil];
     }
@@ -55,7 +55,7 @@
 - (void)viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
-    
+
     _webView.frame = CGRectMake(0.f, 0.f, self.view.frame.size.width, self.view.frame.size.height);
 }
 
